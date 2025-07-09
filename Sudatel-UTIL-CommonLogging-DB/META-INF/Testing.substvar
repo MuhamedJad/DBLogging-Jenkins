@@ -96,7 +96,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/username</name>
-			<value>ESB-Loggingg</value>
+			<value>ESB-Logging</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
