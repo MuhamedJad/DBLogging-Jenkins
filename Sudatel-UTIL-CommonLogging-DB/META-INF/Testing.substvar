@@ -254,7 +254,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///Files/LogFileName</name>
-			<value>Logs</value>
+			<value>Log</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
