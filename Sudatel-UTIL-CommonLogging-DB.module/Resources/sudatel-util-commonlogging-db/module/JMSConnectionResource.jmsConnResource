@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:id="http://www.tibco.com/ws/2013/11/identity" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:sca_ext="http://www.tibco.com/ns/sca/201311" xmlns:sslclient="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/sslclient" xmi:id="_J6OOQD4KEe-SdoKKn7AM-A" name="sudatel-util-commonlogging-db.module.JMSConnectionResource" type="jms:JMSConnectionFactory">
+  <identitySet xmi:id="_sGDvsIY7Ee-Xc8I02JAxxg" appliesTo="namedResource" name="HttpClientIdentitySet" provides="confidentiality">
+    <sca_ext:intentMap xmi:id="_sGDvsYY7Ee-Xc8I02JAxxg" provides="sca_ext:confidentiality">
+      <sca_ext:qualifier xmi:id="_sGDvsoY7Ee-Xc8I02JAxxg" name="transport">
+        <id:IdentityReference xmi:id="_sGEWwIY7Ee-Xc8I02JAxxg" URI="" type="sslclient:SSLClientConfiguration"/>
+      </sca_ext:qualifier>
+    </sca_ext:intentMap>
+  </identitySet>
+  <jndi:configuration xsi:type="jms:DirectConnectionFactory" xmi:id="_X4TTMFgAEfCSS8woWmzvzA" factoryType="Queue/Topic" providerURL="tcp://192.168.1.222:7222"/>
+</jndi:namedResource>

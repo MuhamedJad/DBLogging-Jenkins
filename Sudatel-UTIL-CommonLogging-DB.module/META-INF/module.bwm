@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_QJ21wD4JEe-SdoKKn7AM-A" targetNamespace="http://tns.tibco.com/bw/composite/Sudatel-UTIL-CommonLogging-DB.module" name="Sudatel-UTIL-CommonLogging-DB.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_Rf-UID4JEe-SdoKKn7AM-A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Rgi74D4JEe-SdoKKn7AM-A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_RhBdAD4JEe-SdoKKn7AM-A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_RhkPkD4JEe-SdoKKn7AM-A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_RiBikD4JEe-SdoKKn7AM-A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_RieOgD4JEe-SdoKKn7AM-A" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_RjAaAD4JEe-SdoKKn7AM-A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Vr6ToD4KEe-SdoKKn7AM-A" name="/EMS/LoggingQueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_aBPVID4KEe-SdoKKn7AM-A" name="/EMS/ExceptionQueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_JiZpED6XEe-glrt5-GN9Kg" name="/EMS/username" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_OwZ_AD6XEe-glrt5-GN9Kg" name="/EMS/password" type="property:password" scaext:simpleValue="#!/t4iyFprMIqKCSCuAELhYQ==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_uhWy0JnWEe-f9sN1Fq19SA" name="/EMS/ConnectionFactorySSLPassword" type="property:password" scaext:simpleValue="#!SddZ00TtarrZ46qm50Ddag==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_wrK_AJnWEe-f9sN1Fq19SA" name="/EMS/QueueConnectionFactoryName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_wt_CcJnWEe-f9sN1Fq19SA" name="/EMS/TopicConnectionFactoryName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_K6W1MCWvEfCyTcmxBlkdJA" name="/EMS/LoggingBackupQueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_m2LqECWzEfCCcLsgGXBVRA" name="/EMS/ExceptionBackupQueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_96pBEN4eEe-qutaK0iShQQ" name="/EMS/Sessions/mainLogsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_EOPtIN4fEe-qutaK0iShQQ" name="/EMS/Sessions/mainExceptionsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3Zz_ACW0EfCCcLsgGXBVRA" name="/EMS/Sessions/backupLogsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3d-GQCW0EfCCcLsgGXBVRA" name="/EMS/Sessions/backupExceptionsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Bu7yYD4LEe-SdoKKn7AM-A" name="/DB/username" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_C0qrYD4LEe-SdoKKn7AM-A" name="/DB/password" type="property:password" scaext:simpleValue="#!R39qQ8cgVfnK6rEJqjWBJg==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_c3SVsFgAEfCSS8woWmzvzA" name="/DB/URL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_9adAQEzCEe-dr8AZRbvMwQ" name="/Files/DBFailureFilePath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_nzA1MMHbEe-9jKF_MN8h1w" name="/Files/CorruptedMsgFailureFailureFilePath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_VwB1QMH5Ee-dYcafHI5C0A" name="/Files/LogFileName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_V0Q1AMH5Ee-dYcafHI5C0A" name="/Files/CorruptedMsgFailureFileName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Ogv7kMIvEe-WS4_0qV41gw" name="/Files/FileSizeLimitBytes" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_TWWToCW7EfCCcLsgGXBVRA" name="/Files/ExceptionFileName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_ELN2UMHbEe-9jKF_MN8h1w" name="/General/TimeZoneHour" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_QPpUsD4JEe-SdoKKn7AM-A" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_QPpUsT4JEe-SdoKKn7AM-A" processName="sudatel-util-commonlogging-db.module.LogsMainReceiver"/>
+  </sca:component>
+  <sca:component xmi:id="_kZTKkD4JEe-SdoKKn7AM-A" name="ComponentSudatel-UTIL-CommonLogging-DB-Exceptions" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_kZTKkT4JEe-SdoKKn7AM-A" processName="sudatel-util-commonlogging-db.module.ExceptionsMainReceiver"/>
+  </sca:component>
+  <sca:component xmi:id="_DFLI0CWHEfCmr6t-fy-ntA" name="ComponentSecondaryReceiver" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_DFLI0SWHEfCmr6t-fy-ntA" processName="sudatel-util-commonlogging-db.module.LogsSecondaryReceiver"/>
+  </sca:component>
+  <sca:component xmi:id="_yaBgsCWzEfCCcLsgGXBVRA" name="ComponentExceptionsSecondaryReceiver" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_yaBgsSWzEfCCcLsgGXBVRA" processName="sudatel-util-commonlogging-db.module.ExceptionsSecondaryReceiver"/>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1720554625224" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1720554625224">
+  <complexType name="ExceptionsElementType">
+    <sequence>
+      <element maxOccurs="1" minOccurs="0" name="System" type="string"/>
+      <element maxOccurs="1" name="AppName" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="AppVersion" type="string"/>
+      <element maxOccurs="1" name="HostName" type="string"/>
+      <element maxOccurs="1" name="NodeName" type="string"/>
+      <element maxOccurs="1" name="ProcessName" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="BusinessIDName" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="BusinessIDValue" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="CallerSystem" type="string"/>
+      <element maxOccurs="1" name="TransactionID" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="ServiceName" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="ServiceURI" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="Message" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="RequestPayload" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="ResponsePayload" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="ReqRefNumber" type="string"/>
+      <element maxOccurs="1" name="LogLevel" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="CorrelationID" type="string"/>
+      <element maxOccurs="1" name="Timestamp" type="dateTime"/>
+      <element maxOccurs="1" name="ExceptionType" type="string"/>
+      <element maxOccurs="1" name="ExceptionCode" type="string"/>
+      <element maxOccurs="1" name="ExceptionMessage" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="BackendErrorCode" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="BackendErrorMessage" type="string"/>
+      <element maxOccurs="1" name="StackTrace" type="string"/>
+      <element maxOccurs="1" minOccurs="0" name="ExceptionClass" type="string"/>
+    </sequence>
+  </complexType>
+  <element name="ExceptionsElement" type="tns:ExceptionsElementType"/>
+</schema>
