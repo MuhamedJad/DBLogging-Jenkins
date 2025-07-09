@@ -102,7 +102,7 @@
 			<type>String</type>
 			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
-			<lookupValue>ESB-Logging</lookupValue>
+			<lookupValue>ESB-Loggingg</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///EMS/password</name>
