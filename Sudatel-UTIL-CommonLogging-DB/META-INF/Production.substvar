@@ -94,7 +94,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///EMS/username</name>
-			<value>admin2</value>
+			<value>admin22</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
