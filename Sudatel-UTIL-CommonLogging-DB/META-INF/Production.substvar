@@ -94,7 +94,7 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///EMS/username</name>
-			<value>admin22</value>
+			<value>admin2</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
@@ -138,16 +138,6 @@
 			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
 			<lookupValue>#!QRLsUr5QgFpguTMhg+sBOJE29L569bORmxJ0BvsVU4I8HHDc8asA1w==</lookupValue>
-		</globalVariable>
-		<globalVariable>
-			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/username</name>
-			<value>ESB-Logging</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>ESB-Logging</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///General/TimeZoneHour</name>
@@ -271,6 +261,15 @@
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/URL</name>
 			<value>jdbc:sqlserver://192.168.1.222:1433;DatabaseName=ESB</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/username</name>
+			<value>sa</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>

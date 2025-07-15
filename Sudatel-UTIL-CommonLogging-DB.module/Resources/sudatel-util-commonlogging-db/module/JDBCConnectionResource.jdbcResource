@@ -2,11 +2,11 @@
 <jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_95l4gT4KEe-SdoKKn7AM-A" name="sudatel-util-commonlogging-db.module.JDBCConnectionResource" type="jdbc:JdbcDataSource">
   <jndi:reference xmi:id="_97YoQD4KEe-SdoKKn7AM-A" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
   <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_97YoQT4KEe-SdoKKn7AM-A">
-    <substitutionBindings xmi:id="_a2HSMD4LEe-SdoKKn7AM-A" template="username" propName="/DB/username"/>
     <substitutionBindings xmi:id="_cHKqYD4LEe-SdoKKn7AM-A" template="password" propName="/DB/password"/>
+    <substitutionBindings xmi:id="_EnPA4GFxEfCXgL5n8b7Sdg" template="username" propName="/DB/username"/>
     <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_97YoQj4KEe-SdoKKn7AM-A" jdbcDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver">
       <substitutionBindings xmi:id="_iSlgwFgAEfCSS8woWmzvzA" template="dbURL" propName="/DB/URL"/>
     </connectionConfig>
-    <connectionProperties xmi:id="_LTnDkFgAEfCSS8woWmzvzA" key="jarFile" value="mssql"/>
+    <connectionProperties xmi:id="_9YMnUGFwEfCXgL5n8b7Sdg" key="jarFile" value="mssql"/>
   </jndi:configuration>
 </jndi:namedResource>

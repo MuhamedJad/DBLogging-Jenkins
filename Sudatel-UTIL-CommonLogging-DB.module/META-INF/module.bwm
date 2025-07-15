@@ -20,7 +20,7 @@
   <sca:property xmi:id="_EOPtIN4fEe-qutaK0iShQQ" name="/EMS/Sessions/mainExceptionsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_3Zz_ACW0EfCCcLsgGXBVRA" name="/EMS/Sessions/backupLogsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_3d-GQCW0EfCCcLsgGXBVRA" name="/EMS/Sessions/backupExceptionsSessionsNumber" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_Bu7yYD4LEe-SdoKKn7AM-A" name="/DB/username" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_BgzbcGFxEfCXgL5n8b7Sdg" name="/DB/username" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_C0qrYD4LEe-SdoKKn7AM-A" name="/DB/password" type="property:password" scaext:simpleValue="#!R39qQ8cgVfnK6rEJqjWBJg==" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_c3SVsFgAEfCSS8woWmzvzA" name="/DB/URL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_9adAQEzCEe-dr8AZRbvMwQ" name="/Files/DBFailureFilePath" type="XMLSchema:string" publicAccess="true" scalable="true"/>

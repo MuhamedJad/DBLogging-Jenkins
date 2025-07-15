@@ -95,16 +95,6 @@
 			<lookupValue>#!smumlJJftoMdNhznrSl6Msc73u4XiSPpnzsGIRAhiOPSczdXrnjubg==</lookupValue>
 		</globalVariable>
 		<globalVariable>
-			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/username</name>
-			<value>ESB-Logging</value>
-			<deploymentSettable>false</deploymentSettable>
-			<serviceSettable>false</serviceSettable>
-			<type>String</type>
-			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>ESB-Loggingg</lookupValue>
-		</globalVariable>
-		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///EMS/password</name>
 			<value>#!mRk3nrRWQSl/kQQD35TsN8rjrhuQkd2/YwJCukUdCMKj6zX3d2jXIg==</value>
 			<deploymentSettable>false</deploymentSettable>
@@ -273,6 +263,15 @@
 		<globalVariable>
 			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/URL</name>
 			<value>jdbc:sqlserver://192.168.1.222:1433;DatabaseName=ESB</value>
+			<deploymentSettable>false</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<isOverride>false</isOverride>
+			<useLookupValue>false</useLookupValue>
+		</globalVariable>
+		<globalVariable>
+			<name>//Sudatel-UTIL-CommonLogging-DB.module///DB/username</name>
+			<value>sa</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
